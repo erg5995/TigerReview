@@ -19,18 +19,37 @@ header ul {
 }
 
 
-ul#menu
-{
-    display:inline;
+ul#menu {
+    display: inline;
     text-align: right;
     margin-top: 1.5em;
 }
 
-ul#menu li
-{
+ul#menu li {
     display: inline;
     list-style: none;
     font-size: 1em;
     border-left: 1px solid;
     padding: 12px;
+}
+
+.center-div {
+    margin: auto;
+    width: 100px;
+}
+
+#login {
+    margin-top: 25vh;
+    border: 2px solid;
+    border-radius: 8px;
+    width: 20vw;
+}
+
+.login-text {
+    text-align: center;
+    padding: 1vh 2vw auto auto;
+}
+main {
+    padding: 5vh;
+    line-height: 1.4;
 }
